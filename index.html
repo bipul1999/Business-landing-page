@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Context</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo-container">
+               <a href="#Home page" target="_top"><img src="./images/team.png"></a>
+            </div>
+            <div class="navitem">
+                <div><a href="#Home Page" target="blank">Home page</a></div>
+                 <div><a href="#Contact Us" target="top">Contact Us</a></div>
+            </div>
+        </div>
+        <div class="image">
+            <div class="text">
+                <div class="text-heading">Welcome To Our Business </div>
+            
+                 <div class="business">
+                     <span class="role"></span>
+                 </div>
+                 <div class="description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias facilis, reprehenderit neque perferendis eveniet exercitationem, ullam aliquam magnam voluptate commodi, dolorem blanditiis nemo ad sequi. Totam inventore aperiam quidem eius!
+                 </div>
+            </div>
+
+            <div class="right-image">
+                <img src="./images//meeting.png">
+            </div>
+        </div>
+    </div>
+    <div class="contactus-form-container" id="contactme">
+        <div class="container">
+
+          <h1 class="contactus-heading">Contact Us</h1>
+
+          <h3 class="contactus-sub-heading">
+            Questions, thoughts ?
+          </h3>
+
+
+          <div class="contactus-form-container">
+            <form class="form" action="">
+              <div class="formfield-container">
+                <input class="formfield" 
+                type="text" 
+                name="name" 
+                id="" 
+                placeholder="Enter your name" />
+
+                <input class="formfield" 
+                type="email" 
+                name="email" 
+                id="" 
+                placeholder="Enter your email address" />
+
+                <input class="formfield" 
+                type="text" 
+                name="subject" 
+                id="" 
+                placeholder="Enter your subject" />
+
+                <textarea name="message" 
+                id="" cols="30" rows="10" 
+                class="formfield formfield-textarea"
+                placeholder="Enter your message"></textarea>
+
+              </div>
+              
+              <div>
+                <button type="submit" class="btn-pink" id="submit-btn">
+                  Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+
+            </form>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Know More</div>
+            <div class="link-wrapper">
+              <div>
+                <a href="#Home Page"target="blank" >Home page</a>
+              </div>
+              
+              <div>
+                <a href="#Contact Us"target="blank" >Contact Us</a>
+              </div>
+            </div>
+
+            <div class="icon-wrapper">
+              <i class="fa-brands fa-linkedin icon"></i>
+              <i class="fa-brands fa-github icon"></i>
+              <i class="fa-brands fa-twitter icon"></i>
+              <i class="fa-brands fa-instagram icon"></i>
+              <i class="fa-regular fa-envelope icon"></i>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+    </div>
+  <!-- use of javaScript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "welcome To Our Business",
+        "You are at home page",
+        "you are interested contact Us",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+</html>
